@@ -1,7 +1,7 @@
 # SQL-Generator-using-AI-Agents
 This Streamlit application uses a LangChain-powered AI agent (Claude 3 Sonnet) to inspect an SQLite database schema, generate valid SQL queries from natural language questions, execute them, and display results as tables or interactive charts.
 
-🚀 **Features**
+**Features**
 - **Natural Language to SQL via AI Agent**: Uses Anthropic Claude through LangChain agents to translate plain English into fully-formed SQLite `SELECT` queries.
 - **Schema-Aware Querying**: Agent inspects database schema before generating queries to ensure correct table and column references.
 - **SQLite Execution**: Runs generated SQL queries directly on a local SQLite database.
@@ -10,7 +10,7 @@ This Streamlit application uses a LangChain-powered AI agent (Claude 3 Sonnet) t
 - **Error Handling**: Graceful handling of invalid SQL, missing numeric columns for charts, or empty result sets.
 - **Interactive UI**: Built entirely with Streamlit for an intuitive, browser-based interface.
 
-🛠 **How It Works**
+**How It Works**
 1. User enters a query in plain English (e.g., _"What’s the average total compensation by department?"_).
 2. The app uses the AI agent with two tools:
    - **inspect_schema**: Retrieves tables and columns from the SQLite database.
