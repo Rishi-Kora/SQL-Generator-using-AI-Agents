@@ -30,7 +30,7 @@ This Streamlit application uses a LangChain-powered AI agent (Claude 3 Sonnet) t
 - **Database path**: Set via `EMP_DB_PATH` environment variable (defaults to `/mnt/data/employees.db`).
 - **API key file**: Set via `ENV_FILE` (defaults to `key_claude.env`).
 
-**Workflow Daigram**
+**Workflow Diagram**
 <img width="1006" height="644" alt="image" src="https://github.com/user-attachments/assets/be9ca643-f597-4647-b9fd-e91da3d00bee" />
 
 
