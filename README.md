@@ -21,12 +21,12 @@ This Streamlit application uses a LangChain-powered AI agent (Claude 3 Sonnet) t
    - An optional chart with selectable type and axes.
 5. Users can switch between table view and different chart types dynamically.
 
-📊 **Chart Options**
+**Chart Options**
 - **Bar / Line / Area**: Supports multiple numeric series.
 - **Scatter**: Requires a numeric Y-axis column.
 - Fully interactive charts powered by Altair.
 
-📂 **Configuration**
+**Configuration**
 - **Database path**: Set via `EMP_DB_PATH` environment variable (defaults to `/mnt/data/employees.db`).
 - **API key file**: Set via `ENV_FILE` (defaults to `key_claude.env`).
 
